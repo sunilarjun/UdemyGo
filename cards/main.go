@@ -8,7 +8,7 @@ func main() {
 	//go can infer types to a degree, only use := syntax when intially defining a var
 
 	//declare a slice, so we can have a number of cards
-	cards := []string{"Ace of Spades", newCard()}
+	cards := deck{"Ace of Spades", newCard()}
 	//append does not modify original slice, but instead appends and creates a new slice
 	cards = append(cards, "Six of Spades")
 

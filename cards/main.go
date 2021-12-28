@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	//var card string = "Ace of Spades"
 	//above is long form and explicit, below does the same
@@ -16,11 +18,7 @@ func main() {
 	//}
 
 	cards := newDeck()
-
-	hand, remainingCards := deal(cards, 5)
-
-	hand.print()
-	remainingCards.print()
+	fmt.Println(cards.toString())
 }
 
 //func newCard() string {

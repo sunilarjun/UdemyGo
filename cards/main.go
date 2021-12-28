@@ -27,3 +27,4 @@ func newCard() string {
 //DS in Go:
 //Array: Fixed length list of things, very fixed length of records, items inside must have identical type
 //Slice: An array that can grow or shrink, items inside must have identical type
+//Go is not OO, so no concept of classes

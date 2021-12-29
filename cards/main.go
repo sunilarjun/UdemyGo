@@ -15,8 +15,12 @@ func main() {
 	//	fmt.Println(i, card)
 	//}
 
-	cards := newDeck()
-	cards.saveToFile("my_cards")
+	//cards := newDeck()
+	//cards.saveToFile("my_cards")
+
+	cards := newDeckFromFile("my_cards")
+	cards.print()
+
 }
 
 //func newCard() string {

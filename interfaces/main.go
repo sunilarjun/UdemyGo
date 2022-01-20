@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+//if any other type w getgreeting that rets a string,
+//then that type is an honorary member of type bot
+//and can call printgreeting of type bot
 type bot interface {
 	getGreeting() string
 }
